@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="happy birtday.css" />
+  <title>Happy Birthday</title>
+</head>
+
+<body>
+  <!-- Canvas untuk animasi -->
+  <canvas id="c"></canvas>
+
+  <!-- Audio otomatis -->
+  <audio id="bg-music" autoplay loop>
+    <source src="musik.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Script animasi -->
+  <script src="happy birtday.js"></script>
+
+  <!-- Pemutar manual jika autoplay diblokir -->
+  <button onclick="document.getElementById('bg-music').play()" style="
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        padding: 10px 15px;
+        font-size: 14px;
+        border-radius: 8px;
+        border: none;
+        background-color: #bd5fff;
+        color: white;
+        cursor: pointer;
+      ">
+    Music on pencet ini Mey
+  </button>
+</body>
+
+</html>
