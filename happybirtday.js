@@ -7,8 +7,8 @@ let w = (c.width = window.innerWidth),
     // change the text in here //
     strings: ["HAPPY", "BIRTHDAY!", "MEYSAAA"],
     charSize: 30,
-    charSpacing: 0,
-    lineHeight: 20,
+    charSpacing: 30,
+    lineHeight: 40,
 
     cx: w / 2,
     cy: h / 2,
