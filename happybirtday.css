@@ -1,50 +1,27 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  overflow: hidden;
-}
-
 canvas {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
-  display: block;
 }
-
 p {
-  margin: 0;
+  margin: 0 0;
   position: absolute;
-  font: 3vw Verdana, sans-serif;
+  font: 16px Verdana;
   color: #eee;
-  bottom: 10px;
-  left: 10px;
-  right: 10px;
-  text-align: center;
+  height: 25px;
+  top: calc(100vh - 30px);
   text-shadow: 0 0 2px white;
 }
-
 p a {
   text-decoration: none;
   color: #aaa;
 }
-
 span {
-  font-size: 2.5vw;
+  font-size: 11px;
 }
-
 p > a:first-of-type {
-  font-size: 5vw;
+  font-size: 20px;
 }
-
-/* Responsive button tweak */
-@media (max-width: 768px) {
-  button {
-    font-size: 4vw !important;
-    padding: 2vw 4vw !important;
-    bottom: 15px !important;
-    left: 15px !important;
-  }
+body {
+  overflow: hidden;
 }
